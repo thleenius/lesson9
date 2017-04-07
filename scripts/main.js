@@ -26,6 +26,14 @@ $('.change-image').click(function() {
 	
 });
 
+$('.word-button').click(function(){
+	var input = $('.word-input').val();
+	var firstLetter = input.charAt(0);
+	output = input.slice(1) + firstLetter + 'ay';
+	$('.word-output').html(output);
+
+});
+
 
 // file:///Users/kathleensullivan/Library/Containers/com.apple.mail/Data/Library/Mail%20Downloads/7D306753-19DC-4022-8D1D-F72765491DD8/IMG_1136.JPG
 // file:///Users/kathleensullivan/Library/Containers/com.apple.mail/Data/Library/Mail%20Downloads/C8957BED-62FB-4D80-A141-3B777A70F48A/IMG_1082.JPG
